@@ -1,0 +1,7 @@
+This doc instruct how to setup automatic wifi connection with static ip
+
+1. if you want static ip, update the interface wlan0 section in `dhcpdf.conf`
+2. update wpa_supplicant.conf
+3. copy `ssh` and `wpa_supplicant.conf` to boot, ignore `dhcpcd.conf` if static ip is not desirable
+
+* ssh is empty file, and boot is connect the drive appears when the sd card to the computer
